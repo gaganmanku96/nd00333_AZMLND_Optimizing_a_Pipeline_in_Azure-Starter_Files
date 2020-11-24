@@ -58,9 +58,9 @@ def main():
     run.log("Regularization Strength:", np.float(args.C))
     run.log("Max iterations:", np.int(args.max_iter))
 
-    model = LogisticRegression(C=args.C, max_iter=args.max_iter).fit(x_train, y_train)
+    model = LogisticRegression(C=args.C, max_iter=args.max_iter).fit(train_x, train_y)
 
-    accuracy = model.score(x_test, y_test)
+    accuracy = model.score(test_x, test_y)
     run.log("Accuracy", np.float(accuracy))
 
 if __name__ == '__main__':
