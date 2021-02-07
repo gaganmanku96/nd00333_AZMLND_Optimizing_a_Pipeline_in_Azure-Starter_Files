@@ -34,5 +34,5 @@ The accuracy with HyperDrive Model was 91.18% and with AutML it was 91.75%. Thus
 
 
 ## Proof of cluster clean up
-![Cluster clean up](images/cluster_clean_up.PNG)
+![Cluster clean up](cluster_clean_up.PNG)
 
